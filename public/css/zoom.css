@@ -1,0 +1,42 @@
+.box-zoom {
+  background-color: #fff;
+  display: block;
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  /*margin:7% 10% ;*/
+;
+  transition: 0.2s;
+}
+.box-zoom:hover {
+  transition: 0s;
+}
+.box-zoom img {
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.box-zoom.active {
+  background-size: 250% auto;
+  cursor: zoom-in;
+}
+.box-zoom.active.zoom-plus {
+  background-size: 500% auto;
+  cursor: zoom-out;
+}
+
+.details{
+  color: #fff;
+  text-transform: capitalize;
+  /* letter-spacing: .05em; */
+}
+.details h2{
+  font-size: 1.8em;
+  font-weight: bold;
+}
+.details #newprice{
+  font-size: 1.8em;
+   letter-spacing: .05em;
+}
